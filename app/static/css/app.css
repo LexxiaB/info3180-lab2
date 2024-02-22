@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 .profile-info {
-    background-color: #4CAF50;
+    background-color: #044e06;
     color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -37,7 +37,7 @@ body {
     margin: 0 10px;
 }
 .follow-button {
-    background-color: #4CAF50;
+    background-color: #0c4e0e;
     color: #fff;
     border: none;
     padding: 10px 20px;
