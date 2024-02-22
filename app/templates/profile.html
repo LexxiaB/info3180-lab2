@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block main %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
+
+  <title>Profile</title>
+</head>   
+
+<body>
+    <div class="container">
+        <div class="profile-info"> 
+            <img src="{{url_for('static', filename='alexia_gorl.jpg')}}" alt="Alexia Brooks">
+            <h1>Alexia Brooks</h1>
+            <p>@lexxia</p>
+            <p>Spanish Town, Jamaica</p>
+            <p>Joined {{date}}</p>
+
+        </div>
+        <div class="profile-details">
+            <p>Bio bio bio bio bio bio biology </p>
+            <div class="profile-stats">
+                <div>
+                    <p>20</p>
+                    <p>Posts</p>
+                </div>
+                <div>
+                    <p>1080</p>
+                    <p>Followers</p>
+                </div>
+                <div>
+                    <p>4201</p>
+                    <p>Following</p>
+                </div>
+            </div>
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock %}
